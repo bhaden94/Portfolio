@@ -1,0 +1,290 @@
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  line-height: 1.75rem;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2, p, ul {
+  color: #706c61;
+}
+
+p, ul {
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #fff;
+  background-image: linear-gradient(to right, #fff, #333, #fff);
+  margin: 3% 0;
+}
+
+form {
+  padding: 2% 30% 0;
+}
+
+form button {
+  margin-top: 20px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.opening {
+  height: 100vh;
+}
+
+.title-btn {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.navbar {
+  position: absolute;
+}
+
+#welcome {
+  padding-top: 0;
+}
+
+.welcome-msg {
+  font-size: 4rem;
+}
+
+.job-title {
+  font-size: 1.75rem;
+}
+
+.highlight {
+  color: #0275d8;
+}
+
+.intro {
+  height: 100%;
+}
+
+.color-section {
+  background-color: #f1f3f5;
+}
+
+.color-section-blue {
+  background-color: #0275d8;
+  text-shadow: 1px 1px 0 #444;
+  color: #fff;
+}
+
+.contact p {
+  color: #fff;
+}
+
+.contact-head {
+  margin-bottom: 2%;
+}
+
+.about-text-all {
+  padding: 0 10%;
+}
+
+.about-text {
+  margin-bottom: 3rem;
+}
+
+.right-side {
+  padding: 0 8%;
+  text-align: left;
+}
+
+.card {
+  margin: 10px 0;
+}
+
+.tac-img {
+  width: 75%;
+}
+
+.exp-heading {
+  text-align: left;
+  color: #0275d8;
+}
+
+.exp-row {
+  text-align: left;
+  padding: 0 3% 1%;
+}
+
+.exp-date {
+  text-align: right;
+}
+
+/* footer styling */
+.footer-icons {
+  color: gray;
+}
+
+.footer-icons:hover {
+  color: #333;
+}
+
+.copyright {
+  font-size: .9rem;
+  margin-bottom: 0;
+}
+
+#footer {
+  height: 180px;
+}
+
+#footer .container-fluid {
+  padding: 20px 0 20px;
+}
+
+#footer .container-fluid .row {
+  padding: 10px 0 0;
+}
+
+#contact-btn {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -180px;
+  /* Pad bottom by footer height */
+  padding: 0 0 180px;
+}
+
+/* scroll to top button */
+#back2Top {
+    width: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #272727;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    opacity: 0.6;
+}
+#back2Top:hover {
+    background-color: #272727;
+    color: #0275d8 ;
+}
+
+@media only screen and (min-width: 992px) {
+  #back2Top {
+    right: 40px;
+  }
+
+  .left-side {
+    text-align: left;
+  }
+
+}
+
+@media only screen and (max-width: 992px) {
+  .right-side {
+    text-align: center;
+  }
+
+  .exp-heading {
+    font-size: 1.75rem;
+  }
+
+  .exp-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .welcome-msg {
+    font-size: 3rem;
+  }
+
+  .job-title {
+    font-size: 1.5rem;
+  }
+
+  .about-text-all {
+    padding: 0;
+  }
+
+  .exp-row {
+    padding: 0;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .navbar {
+    background: #fff;
+  }
+
+  #back2Top {
+    width: 40px;
+    line-height: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+  .exp-date {
+    text-align: left;
+  }
+}
+
+/* contact form responsiveness */
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  form {
+    padding: 2% 25% 0;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  form {
+    padding: 2% 15% 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  form {
+    padding: 2% 8% 0;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  form {
+    padding: 2% 0 10%;
+  }
+}
